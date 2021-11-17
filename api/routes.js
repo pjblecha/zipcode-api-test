@@ -18,16 +18,3 @@ router.route('/distance/:zipcode1/:zipcode2')
     });
 // export the routes to the incoming app class
 module.exports = router;
-
-/* Original code
-'use strict';
-
-const controller = require('./controller');
-
-module.exports = function(app) {
-   app.route('/about')
-       .get(controller.about);
-   app.route('/distance/:zipcode1/:zipcode2')
-       .get(controller.getDistance);
-};
- */
